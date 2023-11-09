@@ -46,5 +46,5 @@
     python3 manage.py test employee_register
 
 ## Run the Project
-    python manage.py runserver
+    python3 manage.py runserver
     http://127.0.0.1:8000/show
