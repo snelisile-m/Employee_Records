@@ -83,7 +83,7 @@ DATABASES = {
         'NAME': 'xxhus1zguw9nz929',
         'USER': 'irvgdmitg7qbd2gv',
         'PASSWORD': 'rkp1uqhcrv39scrk',
-        'HOST': '	t07cxyau6qg7o5nz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',  # or the hostname where your MySQL server is running
+        'HOST': 't07cxyau6qg7o5nz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',  # or the hostname where your MySQL server is running
         'PORT': '3306',   
     },
     'TEST': {
