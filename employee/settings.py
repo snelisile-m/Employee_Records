@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-)v_)u3fx+l+d91o-%8u8nr%hltzrr32#l6(87v2lmbkvbw0=i*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ddah.herokuapp.com']
 
 
 # Application definition
@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'employee.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'employee',
-        'USER': 'SA',
-        'PASSWORD': 'Password@970819',
-        'HOST': 'localhost',  # or the hostname where your MySQL server is running
+        'NAME': 'xxhus1zguw9nz929',
+        'USER': 'irvgdmitg7qbd2gv',
+        'PASSWORD': 'rkp1uqhcrv39scrk',
+        'HOST': '	t07cxyau6qg7o5nz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',  # or the hostname where your MySQL server is running
         'PORT': '3306',   
     },
     'TEST': {
@@ -132,6 +132,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 django_heroku.settings(locals())
